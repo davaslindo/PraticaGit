@@ -16,7 +16,7 @@ incrementar$.addEventListener("click", function () {
     p$.innerHTML = contador
 })
 
-
+// função zerar que define o valor do contador como 0
 zerar$.addEventListener("click", function() {
     contador = 0
     p$.innerHTML = contador
